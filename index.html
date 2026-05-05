@@ -25,7 +25,7 @@
 </head>
 <body class="min-h-screen bg-[#f5f5f5] text-gray-600 font-roboto-mono">
   <!-- Header -->
-  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-amber-50/60 border-b border-amber-200/50">
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-amber-50/60">
     <div class="mx-auto max-w-6xl px-4">
       <div class="flex items-center justify-between h-16">
         <nav class="hidden md:flex items-center justify-between w-full text-sm">
@@ -47,7 +47,7 @@
       </div>
     </div>
     <!-- mobile drawer -->
-    <div id="drawer" class="hidden md:hidden border-t border-amber-200/50">
+    <div id="drawer" class="hidden md:hidden">
       <div class="mx-auto max-w-6xl px-4 py-2 flex flex-col gap-1">
         <button data-scroll="#intro" class="px-3 py-2 rounded-lg hover:bg-orange-600/10 text-left">Home</button>
         <button data-scroll="#about" class="px-3 py-2 rounded-lg hover:bg-orange-600/10 text-left">About</button>
@@ -67,7 +67,7 @@
   <section id="about" class="relative min-h-screen flex items-center justify-center">
     <img src="images/workshop2.png" alt="About Banner" class="w-full h-auto max-w-full object-contain">
     <div class="absolute inset-0 flex items-center justify-end">
-      <div class="w-[30%] text-left text-gray-600 drop-shadow-lg mr-[5%]">
+      <div class="w-[30%] text-left text-gray-600 mr-[5%]">
         <h2 class="text-2xl md:text-3xl font-semibold font-mohave">About</h2>
         <p class="mt-4">
           This workshop convenes perspectives from HCI, fabrication, perceptual science, and materials science to build community, align knowledge, and articulate future directions for the field. Through multisensory demonstrations and hands-on activities, we aim to balance technological interventions with human factors to chart the future of edible interactions.
@@ -400,24 +400,36 @@
     <div class="mx-auto max-w-6xl px-4 py-16 md:py-20">
       <h2 class="text-2xl md:text-3xl font-semibold font-mohave">Call for Participation</h2>
       <p class="mt-4 text-gray-700">
-        This one-day workshop welcomes researchers, designers, artists, and culinary practitioners who are interested in edible interactions. We invite participants from diverse disciplinary backgrounds to join us in exploring how edible materials can function as interfaces, interactive media, and design materials.
+        What if food is not only something we eat, but a medium through which we interact with the intertwined digital and material world? Join our DIS2026 workshop, Beyond Interfaces: The Future of Edible Interactions. Expect a mix of making, playing, thinking, tasting, and imagining together.
       </p>
       <p class="mt-4 text-gray-700">
-        Relevant topics include, but are not limited to:
+        Edible interactions are emerging as an exciting direction in HCI, grounded within Human-Food Interaction (HFI), where food is no longer just a source of sustenance. Instead, it becomes an interactive interface with computing technologies, a testbed of research, and a material of design. In this workshop, we will dive into this evolving space together, exploring how edible interactions can be sensed, transformed, and experienced across multiple modalities – touch, taste, sound, and beyond.
       </p>
+      
+      <h3 class="mt-6 text-xl font-semibold font-mohave text-gray-700">✨ About the Workshop</h3>
+      <p class="mt-2 text-gray-700">This hands-on workshop brings together people working across HCI, design, engineering, perception science, and more. We will:</p>
       <ul class="mt-2 text-gray-700 list-disc list-inside">
-        <li><strong>Design:</strong> Design thinking, participatory and speculative approaches, and design methodologies for developing edible interfaces.</li>
-        <li><strong>Materials and Fabrication:</strong> The current repertoire of edible materials, their properties and functionalities, interaction mechanisms, and approaches to fabrication and prototyping.</li>
-        <li><strong>Interactive Technologies:</strong> Technologies that enable edible interactions, including XR, AI, wearable systems, computational techniques, and shape-changing interfaces, etc.</li>
-        <li><strong>User Experiences:</strong> Multisensory interaction and augmentation, including crossmodal perception, sensation, and embodied eating experiences.</li>
-        <li><strong>Evaluative Frames:</strong> Ways of knowing and evaluating edible interactions, including qualitative and quantitative methods, as well as psychophysical measures.</li>
-        <li><strong>Application Scenarios:</strong> Potential application areas, including
-          <ul class="list-disc list-inside ml-4">
-            <li><strong>Health and well-being:</strong> accessibility, inclusiveness, dietary needs, and supportive interventions;</li>
-            <li><strong>Consumption and culture:</strong> dietary practices, perception, sociality, commensality, and cultural or ethical considerations;</li>
-            <li><strong>Engagement and futures:</strong> entertainment, play, telepresence, and real-world deployment contexts.</li>
-          </ul>
-        </li>
+        <li>Experience live demos & prototypes</li>
+        <li>Engage in interactive group discussions</li>
+        <li>Share early ideas, concepts, and artifacts</li>
+        <li>Co-create future directions for edible interactions</li>
+      </ul>
+
+      <h3 class="mt-6 text-xl font-semibold font-mohave text-gray-700">👥 Who we're looking for</h3>
+      <p class="mt-2 text-gray-700">We welcome:</p>
+      <ul class="mt-2 text-gray-700 list-disc list-inside">
+        <li>Researchers & students in HCI, design, fabrication, or engineering</li>
+        <li>People working on multisensory, crossmodal, or material-based experiences</li>
+        <li>Anyone exploring food, perception, or interactive systems</li>
+      </ul>
+
+      <h3 class="mt-6 text-xl font-semibold font-mohave text-gray-700">🚀 What we aim to achieve</h3>
+      <p class="mt-2 text-gray-700">Together, we want to:</p>
+      <ul class="mt-2 text-gray-700 list-disc list-inside">
+        <li>Build a connected community around edible interactions</li>
+        <li>Develop a shared language and framework across disciplines</li>
+        <li>Explore future applications and research directions</li>
+        <li>Spark new collaborations and projects</li>
       </ul>
       <p class="mt-4 text-gray-700">
     </div>
@@ -427,7 +439,7 @@
   <section id="newsection" class="relative min-h-screen flex items-center justify-center">
   <img src="images/workshop3.png" alt="New Section Banner" class="w-full h-auto max-w-full object-contain">
   <div class="absolute inset-0 flex items-center justify-start">
-    <div class="w-[40%] text-left text-gray-600 drop-shadow-lg ml-[5%]">
+    <div class="w-[40%] text-left text-gray-600 ml-[5%]">
       <h2 class="text-2xl md:text-3xl font-semibold font-mohave">How to Participate</h2>
       <p class="mt-4">
         To participate, please submit a 1–2 page position paper in PDF format using the ACM Master Article Template. Your submission should briefly introduce your background, explain your interest in edible interactions, and describe what you would like to contribute to the workshop. Optional links to a demo video or project page are welcome. We also encourage alternative forms of submission, such as images, sketches, videos, or other formats that help communicate your ideas.
